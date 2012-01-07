@@ -42,15 +42,15 @@ ul {
 				margin-left: 3px;
 				margin-right: 3px;
 			}
-			ul li a span.tab {
+			ul li a span#tab {
 				background-position: -17px -90px;
 			}
-			ul li a span.inf {
+			ul li a span#inf {
 				background-position: -171px -107px;
 			}
-			ul li a span.zdj {
+			ul li a span#zdj {
 				background-position: -33px -90px;
 			}
-			ul li a span.zna {
+			ul li a span#zna {
 				background: url(http://static.ak.fbcdn.net/rsrc.php/v1/y7/r/iCh4O9b6qqE.png) -267px -438px;
 			}
