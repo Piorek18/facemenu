@@ -1,0 +1,56 @@
+/* ================================================================== */
+/* Created by: Konrad Kowalski <kkowalskipl@gmail.com> on DD-MM-RRRR  */
+/* ================================================================== */
+
+@charset "utf-8";
+
+/* === PageCSS ====================================================== */
+ul {
+	text-align: left;
+	float: left;
+	margin: 20px 20px;
+}
+	ul li {
+	margin-bottom: 1px;
+	}
+		ul li a {
+			width: 200px;
+			height: 20px;
+			line-height: 20px;
+			color: #4F4B55;
+			display: inline-block;
+		}
+		ul li a.active {
+			background: #D8DFEA;
+			font-weight: bold;
+			color: #000;
+		}
+		ul li a.active:hover {
+			background:  #D8DFEA;
+		}
+		ul li a:hover {
+			background: #EFF2F7;
+			text-decoration: none;
+		}
+			ul li a span {
+				width: 16px;
+				height: 17px;
+				background: url(http://static.ak.fbcdn.net/rsrc.php/v1/yu/r/B4oOtYLi1zC.png);
+				display: inline-block;
+				vertical-align: middle;
+				margin-top: -3px;
+				margin-left: 3px;
+				margin-right: 3px;
+			}
+			ul li a span.tab {
+				background-position: -17px -90px;
+			}
+			ul li a span.inf {
+				background-position: -171px -107px;
+			}
+			ul li a span.zdj {
+				background-position: -33px -90px;
+			}
+			ul li a span.zna {
+				background: url(http://static.ak.fbcdn.net/rsrc.php/v1/y7/r/iCh4O9b6qqE.png) -267px -438px;
+			}
